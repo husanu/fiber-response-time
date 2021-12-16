@@ -1,4 +1,4 @@
-module github.com/husanu/fiber-response-time
+module github.com/husanu/fiber-responsetime
 
 go 1.17
 

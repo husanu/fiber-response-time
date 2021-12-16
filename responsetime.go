@@ -14,9 +14,8 @@ func New() fiber.Handler {
 		err := c.Next()
 
 		diff := time.Since(start)
-		c.Append("X-Response-Time-Mili", fmt.Sprintf("%dms", diff.Milliseconds()))
-		// c.Append("X-Response-Time-Micro", fmt.Sprintf("%vus", diff.Microseconds()))
-		// c.Append("X-Response-Time-Nano", fmt.Sprintf("%vns", diff.Nanoseconds()))
+		c.Append("X-Response-Time", fmt.Sprintf("%dms", diff.Milliseconds()))
+
 		return err
 	}
 }
