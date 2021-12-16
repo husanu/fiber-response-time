@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
-	responsetime "github.com/husanu/fiber-responsetime"
+	responsetime "github.com/husanu/fiber-responsetime/v2"
 )
 
 func main() {
