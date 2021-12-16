@@ -2,6 +2,10 @@
 
 X-Response-Time middleware for fiber/v2
 
+```sh
+go get github.com/husanu/fiber-responsetime/v2
+```
+
 ```go
 package main
 
